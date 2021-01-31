@@ -79,4 +79,4 @@ for tt in transaction_types:
                     outp_rental = outp_rental.append(df_elem, ignore_index=True)
 
 
-# done, results are in outp_capital and outp_rental
+# done, results are in outp_capital and outp_rental - go and do some cool analysis with it
