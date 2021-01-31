@@ -82,3 +82,7 @@ for tt in transaction_types:
 
 
 # done, results are in outp_capital and outp_rental - go and do some cool analysis with it
+if len(outp_rental)>0:
+    outp_rental.to_csv('outp_rental.csv')
+if len(outp_capital)>0:
+    outp_capital.to_csv('outp_capital.csv')
