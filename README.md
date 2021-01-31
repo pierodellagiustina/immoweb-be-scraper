@@ -14,4 +14,5 @@ Could easily adjust the URL to accommodate extra filters.
 
 The municipality name in the URL (eg `.../st-gilles/...`) does not seem to matter - what matters is the postcode (postal code). As long as the postcode is set appropriately, the URL will return the right results.
 
+Finally, made this for *personal use* on a *limited number of listings* - scraped data should not be used for commercial purposes. As always, please be sensible!
  
