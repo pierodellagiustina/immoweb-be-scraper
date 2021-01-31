@@ -1,4 +1,4 @@
-# immoweb_be_scraper
+# Immoweb Scraper
 
 Simple no-frills script to scrape immoweb.be - nothing fancy, suggestions are more than welcome.
 
