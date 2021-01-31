@@ -41,6 +41,8 @@ for tt in transaction_types:
             pg = str(pg)
             min_floor_area = str(min_floor_area)
             max_floor_area = str(max_floor_area)
+            min_num_bedrooms = str(min_num_bedrooms)
+            max_num_bedrooms = str(max_num_bedrooms)
 
             # create url
             if tt=='for_sale':
