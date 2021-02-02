@@ -5,8 +5,7 @@ Simple no-frills script to scrape immoweb.be - nothing fancy, suggestions are mo
 
 ### Parameters
 
-- Currently using min and max floor area (`min_floor_area` and `max_floor_area`) as search filters for sales, and min and max num of bedrooms (`min_num_bedrooms` and `max_num_bedrooms`) for rental properties.
-Could easily adjust the URL to accommodate extra filters.
+- Currently floor area and number of bedrooms as search criteria (`min_floor_area`, `max_floor_area`, `min_num_bedrooms`, `max_num_bedrooms`). Could easily adjust the URL to accommodate extra filters.
 - `max_pages` sets maximum number of result pages that will be scraped for every search. If in doubt, choose a high number
 
 
