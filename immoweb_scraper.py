@@ -2,11 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import pandas as pd
-from pandas.io.json import json_normalize
+from pandas import json_normalize
 
 '''
 set up: choose below parameters
 '''
+
 # select postcodes to search (add them to below list)
 postcodes = [1070, 1160,1082,1000,1030,1040,1050,1140,1190,1090,1080,1081,1060,1210,1180,1170,1200,1150]
 
@@ -102,9 +103,9 @@ for tt in transaction_types:
                 df_elem = json_normalize(elem_subset, sep='_')
 
                 if tt == 'for-sale':
-                    outp_sales = outp_sales.append(df_elem, ignore_index=True, sort=False)
+                    outp_sales = outp_sales._append(df_elem, sort=False, ignore_index=True)
                 elif tt == 'for-rent':
-                    outp_rental = outp_rental.append(df_elem, ignore_index=True, sort=False)
+                    outp_rental = outp_rental._append(df_elem, sort=False, ignore_index=True)
 
 # cleanse the dataset - sales first
 if sales:
